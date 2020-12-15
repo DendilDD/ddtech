@@ -1,1 +1,1 @@
-<h1>Welcome to DD tech</h1>
+<h1 align="center">Welcome to DD tech</h1>
