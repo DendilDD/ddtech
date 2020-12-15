@@ -21,6 +21,14 @@ body{
     margin-top: 150px;
     animation: head 3s;
 }
+@media screen and(max-width:400px){
+    .head{
+    position: relative;
+    font-size: 50px;
+    margin-top: 150px;
+    animation: head 3s;
+}
+}
 @keyframes head{
     0%{top: -500px;}
     100%{top: 0px;}
