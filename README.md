@@ -13,7 +13,7 @@
         and web developement idea's...Developement is made to improve out technical and tech related things..
         This website to improve our new idea and technical skills. We learn together..we improve together..we update
         together...This website is used to build with animation and other graphical ideas.<br>
-        We learn,we improve,we grow
+        We learn...We improve...We grow.
     </p>
     <div class="type">Welcome to DD Tech</div>
     <p class="btn">Read More</p>
