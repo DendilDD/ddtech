@@ -1,0 +1,69 @@
+body{
+    background-image: url(Generic_BG09_Dark.png);
+    margin: auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+@media screen and(max-width:400px){
+    body{
+        background-image: url(Generic_BG09_Dark.png);
+        margin: auto;
+        width: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+    }  
+}
+.head{
+    position: relative;
+    font-size: 50px;
+    margin-top: 150px;
+    animation: head 3s;
+}
+@keyframes head{
+    0%{top: -500px;}
+    100%{top: 0px;}
+}
+.content{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    animation: cont 3s;
+}
+@keyframes cont{
+    0%{left: -1200px;}
+    100%{left: 0px;}
+}
+.type{
+    display: inline-block;
+    font-size: 40px;
+    animation: type 4s steps(21) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type{
+    0%{width: 0ch;}
+    100%{width: 21ch;}
+}
+.btn{
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border: white 1px solid;
+    opacity: 0;
+    animation: btn 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes btn{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
