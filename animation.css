@@ -53,3 +53,7 @@ body{
     50%{opacity: 0;}
     100%{opacity: 1;}
 }
+.btn:hover{
+    color: black;
+    background-color: white;
+}
